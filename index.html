@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sakshi fitness</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Rubik&family=Sigmar+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Great+Vibes&family=Rubik&family=Satisfy&family=Sigmar+One&display=swap" rel="stylesheet">
+    <style>
+        /*css reset*/
+        
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url('img/bj.jpg');
+            background-repeat: no-repeat;
+            background-position: right 2px top;
+            background-size: 1300px 2200px;
+            color: black;
+            height: 1000px;
+        }
+        
+        .header {
+            background-color: indianred;
+            border-top-color: indianred;
+            bottom: 30px;
+        }
+        
+        .left {
+            display: block;
+            position: absolute;
+            border-top-width: 8px;
+            font-family: 'Fira Sans', sans-serif;
+            font-family: 'Great Vibes', cursive;
+            font-family: 'Rubik', sans-serif;
+            font-family: 'Satisfy', cursive;
+            font-family: 'Sigmar One', cursive;
+            margin: auto;
+            padding-left: 30px;
+            padding-right: 2px;
+            padding-top: 6px;
+            padding-bottom: 2px;
+            border-right-width: 4px;
+        }
+        
+        .left img {
+            width: 50px;
+            filter: invert(100%)
+        }
+        
+        .mid {
+            display: block;
+            width: 44%;
+            margin: 5px auto;
+            border-left-width: 5px;
+            border-right-width: 5px;
+            border-top-width: 5px;
+            border-bottom-width: 5px;
+            padding-left: 2px;
+            font-family: 'Fira Sans', sans-serif;
+        }
+        
+        .right {
+            position: absolute;
+            top: 20px;
+            right: 27px;
+            font-family: 'Sigmar One', cursive;
+            background-color: indianred;
+        }
+        
+        .navbar {
+            display: inline-block;
+        }
+        
+        .logo_text {
+            margin-left: 40px;
+            position: absolute;
+            top: 0px;
+            left: 45px;
+        }
+        
+        .navbar li {
+            display: inline-block;
+        }
+        
+        .navbar li a {
+            color: black;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        
+        .navbar li a:hover {
+            color: black;
+            background-color: burlywood;
+        }
+        
+        .btn {
+            background-color: black;
+            color: white;
+            border-color: black;
+            border-bottom: indianred;
+            border-right: indianred;
+            border-top: indianred;
+            border-left: indianred;
+            padding-bottom: 4px;
+            padding-right: 15px;
+            padding-left: 15px;
+            padding-top: 4px;
+            font-size: 13px;
+        }
+        
+        .btn:hover {
+            background-color: burlywood;
+        }
+        
+        .container {
+            border: 2px solid black;
+            margin: 215px 40px;
+            padding: 50px 20px;
+            width: 290px;
+            border-radius: 30px;
+            height: 450px;
+        }
+        
+        .container h1 {
+            margin: auto;
+            margin-left: 15px;
+            width: 320px;
+            padding: 10px;
+            text-align: center;
+            float: right;
+            padding: 70px 0;
+            font-family: 'Odibee Sans', cursive;
+            font-family: 'Oswald', sans-serif;
+        }
+        
+        .container input {
+            border: 0.3px solid black;
+            border-radius: 15px;
+        }
+        
+        .form-group input {
+            display: block;
+            padding: 7px 10px;
+            width: 260px;
+            text-align: center;
+            margin: 8px auto;
+            font-size: 15px;
+            font-family: 'Odibee Sans', cursive;
+            font-family: 'Oswald', sans-serif;
+        }
+        
+        .form-group button {
+            position: relative;
+            left: 50%;
+            border: indianred;
+            border-radius: 15px;
+            margin-top: 10px;
+            margin-left: -95px;
+            width: 70%;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            font-size: 15px;
+        }
+        
+        .form-group button:hover {
+            background-color: burlywood;
+        }
+        
+        .input {
+            font-family: 'Heebo', sans-serif;
+        }
+    </style>
+
+    <body>
+        <header class="header">
+            <!--leftbox for logo-->
+            <div class="left">
+
+                <img src="img/gym.png" alt="">
+                <div class="logo_text">sakshi fitness</div>
+            </div>
+            <!--midbox for navbar-->
+            <div class="mid">
+                <ul class="navbar">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Fitness calculator</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+
+            </div>
+            <!--rightbox for buttons -->
+            <div class="right">
+
+                <button class="btn">call us now</button>
+                <button class="btn">email us</button>
+            </div>
+        </header>
+        <div class="container">
+            <h1>join the best gym!</h1>
+            <form action="noaction.php">
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Name">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Age">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Weight">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Height">
+                    <button class="btn">submit</button>
+                </div>
+            </form>
+        </div>
+
+    </body>
+
+</html>
